@@ -1,0 +1,14 @@
+﻿# Ignorar todas las carpetas node_modules
+**/node_modules/
+
+# Archivos de logs
+*.log
+
+# Archivos de entorno
+.env
+
+# IDEs y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
