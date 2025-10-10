@@ -7,7 +7,7 @@ app.get('/eliminacion', (req, res) => {
     res.send('Eliminacion de datos');
 });
 
-app.post('/adicion', (req, res) => {
+app.get('/adicion', (req, res) => {
     res.send('adiciona de Empleados');
 });
 
