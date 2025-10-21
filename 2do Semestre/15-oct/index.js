@@ -12,9 +12,9 @@ app.post(
         check('nota', ' Nota inválida').isFloat({ min: 0, max: 100 }),
         check('password', ' Contraseña inválida')
             .isLength({ min: 8 })
-            .matches(/[a-zA-Z]/)
-            .matches(/\d/)
-            .matches(/[^a-zA-Z0-9]/)
+            .matches(/[^a-zA-Z]/)
+            .matches(/\d/)//numeros
+            .matches(/\W/)//caracteres especiales
     ],
     (req, res) => {
 
